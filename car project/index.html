@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>floatingcar</title>
+    <meta name="description" content="anotherfloatingcar" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="js/Base.js"></script>
+    <script src="js/Car.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <a-entity id="base" base></a-entity>
+      
+      <a-entity id="car-model" car-model></a-entity>
+      <a-sky src = "https://th.bing.com/th/id/R.951357318bd4a94c442628e030011273?rik=TeKdmeGR5%2fpnFA&riu=http%3a%2f%2fwww.photos-public-domain.com%2fwp-content%2fuploads%2f2011%2f03%2fblue-sky-with-white-clouds-texture.jpg&ehk=SDJvugzASQiAp6xoYoKhbjpBrE8nwLjpdbNn6Cg6Ivw%3d&risl=&pid=ImgRaw&r=0"></a-sky>
+
+    
+      <a-entity
+        id="camera"
+        camera
+        look-controls
+        wasd-controls
+        position="0 50 250"
+      ></a-entity>
+    </a-scene>
+  </body>
+</html>
